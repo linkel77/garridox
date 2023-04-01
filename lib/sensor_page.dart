@@ -128,7 +128,7 @@ class _SensorPageState extends State<SensorPage> {
       onWillPop: _onWillPop,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Optical Dust Sensor'),
+          title: Text('Laser Sensor'),
         ),
         body: Container(
             child: !isReady
